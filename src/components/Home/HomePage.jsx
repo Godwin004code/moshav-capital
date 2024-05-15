@@ -20,11 +20,11 @@ const HomePage = () => {
 <OurStrongSides />
 <section className='flex w-[90%] mx-auto justify-between py-16 pb-28'>
         <div>
-            <h2 className='text-[#1E772C] font-medium text-[20px]'>Support</h2>
+            <h2 className='text-[#1E772C] font-medium text-[18px]'>Support</h2>
             <h2 className='font-bold text-5xl my-6'>FAQ</h2>
-            <h2 className='text-[#000] font-medium text-[20px]'>Have a question and don’t see an answer below?</h2>
-            <h2 className='text-[#000] font-medium text-[20px]'>Feel free to reach out to us at </h2>
-            <h2 className='text-[#1E772C] font-medium text-[20px]'>contact@moshavcapital.com</h2>
+            <h2 className='text-[#000] font-medium text-[18px]'>Have a question and don’t see an answer below?</h2>
+            <h2 className='text-[#000] font-medium text-[18px]'>Feel free to reach out to us at </h2>
+            <h2 className='text-[#1E772C] font-medium text-[18px]'>contact@moshavcapital.com</h2>
         </div>
     <HomeAccordion  />
     </section>

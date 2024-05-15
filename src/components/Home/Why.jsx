@@ -14,7 +14,7 @@ const Why = () => {
             <h2 className='font-extrabold text-[32px]'>01</h2>
             <div className=' ml-16 mr-7 mt-10'>
                 <h2 className='text-[#1E772C] font-semibold text-3xl'>Financial intermediary services</h2>
-                <p className='font-medium text-xl '>Moshav Capital facilitates access to innovative financial products and services designed specifically for micro, small, and medium enterprises (MSMEs) in the agribusiness sector. This includes loans, credit facilities, and investment opportunities tailored to the unique needs of agribusiness entrepreneurs.</p>
+                <p className='font-medium text-lg mt-6 '>Moshav Capital facilitates access to innovative financial products and services designed specifically for micro, small, and medium enterprises (MSMEs) in the agribusiness sector. This includes loans, credit facilities, and investment opportunities tailored to the unique needs of agribusiness entrepreneurs.</p>
                 <button className='bg-[#1E772C] w-[230px] mx-auto mt-10 h-[65px] text-white text-xl rounded-xl'>Learn more</button>
             </div>
             <div className=''>
@@ -28,7 +28,7 @@ const Why = () => {
             </div>
             <div className='ml-32 mr-7  mt-10'>
                 <h2 className='text-[#1E772C] font-semibold text-3xl'>Commodity warehousing & collateral Management</h2>
-                <p className='font-medium text-xl '>We offers secure commodity warehousing facilities and collateral management services, enabling MSMEs to leverage their produce and assets to access financing and mitigate risks.</p>
+                <p className='font-medium text-lg mt-6'>We offers secure commodity warehousing facilities and collateral management services, enabling MSMEs to leverage their produce and assets to access financing and mitigate risks.</p>
                 <button className='bg-[#1E772C] w-[230px] mx-auto mt-10 h-[65px] text-white text-xl rounded-xl'>Learn more</button>
             </div>
             <h2 className='font-extrabold text-[32px]'>02</h2>
@@ -37,7 +37,7 @@ const Why = () => {
             <h2 className='font-extrabold text-[32px]'>03</h2>
             <div className=' ml-16 mr-7 mt-10'>
                 <h2 className='text-[#1E772C] font-semibold text-3xl'>Cluster marketing support & Brokerage Services</h2>
-                <p className='font-medium text-xl '>By fostering collaboration among enterprises in specific geographic areas or sectors, we facilitate joint promotion, distribution, and market penetration strategies. This approach boosts visibility, expands customer reach, and drives sales growth for participating businesses, ultimately strengthening the agribusiness ecosystem.</p>
+                <p className='font-medium text-lg mt-6'>By fostering collaboration among enterprises in specific geographic areas or sectors, we facilitate joint promotion, distribution, and market penetration strategies. This approach boosts visibility, expands customer reach, and drives sales growth for participating businesses, ultimately strengthening the agribusiness ecosystem.</p>
                 <button className='bg-[#1E772C] w-[230px] mx-auto mt-10 h-[65px] text-white text-xl rounded-xl'>Learn more</button>
             </div>
             <div className=''>
@@ -51,7 +51,7 @@ const Why = () => {
             </div>
             <div className='ml-32 mr-7  mt-10'>
                 <h2 className='text-[#1E772C] font-semibold text-3xl'>Infrastructure as-a-service</h2>
-                <p className='font-medium text-xl '>Infrastructure-as-a-Service (IaaS) by Moshav Capital offers agribusinesses scalable computing resources, cloud-based applications, and digital tools to optimize operations and enhance efficiency without upfront infrastructure investments. Leverage modern technology to streamline processes and adapt to market demands effectively.</p>
+                <p className='font-medium text-lg mt-6'>Infrastructure-as-a-Service (IaaS) by Moshav Capital offers agribusinesses scalable computing resources, cloud-based applications, and digital tools to optimize operations and enhance efficiency without upfront infrastructure investments. Leverage modern technology to streamline processes and adapt to market demands effectively.</p>
                 <button className='bg-[#1E772C] w-[230px] mx-auto mt-10 h-[65px] text-white text-xl rounded-xl'>Learn more</button>
             </div>
             <h2 className='font-extrabold text-[32px]'>04</h2>

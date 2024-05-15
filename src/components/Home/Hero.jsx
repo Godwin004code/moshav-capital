@@ -47,10 +47,10 @@ const Hero = () => {
 
 <div className="landing-page-overlay h-full" >
 <Nav />
-<div className='flex justify-center flex-col mt-48 w-full'>
+<div className='flex justify-center flex-col mt-24 w-full'>
 
-<h1 className='text-white text-6xl w-[70%] mx-auto text-center '>{text}</h1>
-<p className='text-white text-3xl text-center mt-5'>
+<h1 className='text-white text-4xl w-[70%] mx-auto text-center '>{text}</h1>
+<p className='text-white text-2xl text-center mt-5'>
     {paragraph}
 </p>
 <button className='bg-[#1E772C] w-[240px] mx-auto mt-10 h-[65px] text-white text-2xl rounded-xl'>Learn more</button>

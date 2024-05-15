@@ -5,8 +5,8 @@ const Newsletter = () => {
   return (
     <section className='flex justify-between w-[90%] mx-auto py-28'>
         <div className='w-[35%]'>
-            <h2 className='text-[#141414] font-semibold text-[32px]'>You can also subscribe to our </h2>
-            <h2 className='text-[#141414] font-semibold text-[32px]'>newsletter to get monthly updates</h2>
+            <h2 className='text-[#141414] font-semibold text-[25px]'>You can also subscribe to our </h2>
+            <h2 className='text-[#141414] font-semibold text-[25px]'>newsletter to get monthly updates</h2>
         </div>
         <div className='flex w-[50%] my-auto'>
             <div className='bg-[#E4F8D1] w-[70%] rounded-[10px] pl-5 mr-5  flex'>
