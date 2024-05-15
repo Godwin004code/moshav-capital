@@ -1,24 +1,35 @@
 import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import HomePage from './components/Home/HomePage';
+import AboutPage from './components/About/AboutPage';
+import FIS from './components/Services/FIS';
+import ClusterMarketingServices from './components/Services/ClusterMarketingServices';
+import CWAM from './components/Services/CollateralWarehousing';
+import IAAS from './components/Services/IAAS';
+import Contact from './components/Contact/Contact';
+import Partners from './components/Partners/Partners';
+import Services from './components/Services/Services';
+import ScrollToTop from './components/Global/ScrollToTop';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <ScrollToTop />
+    <Routes>
+      <Route path='/' exact element={<HomePage />} />
+      <Route path='/about'  element={<AboutPage />} />
+      <Route path="/financial-intermidation" element={<FIS />} />
+      <Route path="/collateral-warehousing-and-collateral-management" element={<CWAM
+       />} />
+      <Route path="/cluster-marketing-and-brokerage-services" element={<ClusterMarketingServices />} />
+      <Route path="/infrastructure-as-a-service" element={<IAAS />}  />
+      <Route path="/contact" element={<Contact />} />
+      <Route path="/partners" element={<Partners />} />
+      <Route path="/services" element={<Services />} />
+    </Routes>
+    </BrowserRouter>
   );
 }
 

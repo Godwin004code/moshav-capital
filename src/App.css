@@ -1,38 +1,92 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.all-dot {
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  position: absolute;
+  bottom: 25%;
 }
 
-.App-link {
-  color: #61dafb;
+.dot {
+  width: 10px;
+  height: 10px;
+  background: #FFFFFF;
+  margin-right: 1rem;
+  border-radius: 50%;
+}
+.active-dot {
+  background: #1E772C;
+}
+.btns {
+  display: block;
+}
+.slide-buttons {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  top: 45%;
+  background-color: #1E772C33;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.prev {
+  left: 2%;
+}
+.next {
+  right: 2%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.dropdown-menu {
+  position: absolute;
+  width: 500px;
+  background-color: #FFFFFFCC;
+  padding: 10px;
+  top: 30px;
 }
+
+.wrapper{
+ background-color: #FAFFF5;
+ margin-bottom: 30px;
+  overflow: hidden;
+}
+.wrapper .question-container{
+  width: 100%;
+  text-align: left;
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 500;
+  font-size: 20px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+.question-container.active{
+  color: #1db954;
+  /* background-image: linear-gradient(90deg,transparent,rgba(0,0,0,0.04),transparent); */
+}
+/* .wrapper .question-container:hover{
+  background-image: linear-gradient(90deg,transparent,rgba(0,0,0,0.04),transparent);
+} */
+.wrapper .arrow{
+  font-size: 2rem;
+  transition: .5s ease-in-out;
+}
+.arrow.active{
+  rotate: 180deg;
+  color: #1db954;
+}
+.wrapper .answer-container{
+  padding: 0 1rem;
+  transition: height .7s ease-in-out;
+}
+.wrapper .answer-content{
+  padding: 1rem 0;
+  font-size: 20px;
+  font-style: italic;
+}
+
