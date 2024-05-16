@@ -5,6 +5,7 @@ import SlidesArrow from "./SlidesArrow";
 import Data from "../Data";
 
 const Hero = () => {
+  
   const [active, setActive] = useState(0);
   const { text, img, paragraph } = Data[active];
 
