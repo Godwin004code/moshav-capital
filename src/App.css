@@ -112,6 +112,12 @@
   border-top: '1px solid #00000033'
 }
 @media only screen and (max-width: 640px) {
+  .wrapper .question-container {
+    padding: 20px;
+  }
+  .wrapper .answer-content {
+    font-size: 16px;
+  }
   .imole {
     border-left: 0;
     border-right: 0;

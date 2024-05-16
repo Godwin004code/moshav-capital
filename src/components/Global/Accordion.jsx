@@ -7,13 +7,13 @@ import { RiArrowDropDownLine } from "react-icons/ri";
 const AccordionItem = ({ question, answer, isOpen, onClick }) => {
   const contentHeight = useRef();
   return (
-    <div className="wrapper">
+    <div className="wrapper sm:mt-16">
       <button
         className={`question-container ${isOpen ? "active" : ""}`}
         onClick={onClick}
       >
-        <p className="question-content">{question}</p>
-        <RiArrowDropDownLine className={`arrow ${isOpen ? "active" : ""}`} />
+        <p className="question-content sm:text-base sm:w-[90%]">{question}</p>
+        <RiArrowDropDownLine className={`arrow ${isOpen ? "active w-[40px] ml-auto" : "w-[40px] ml-auto"}`} />
       </button>
 
       <div
@@ -25,7 +25,7 @@ const AccordionItem = ({ question, answer, isOpen, onClick }) => {
             : { height: "0px" }
         }
       >
-        <p className="answer-content ml-[30px]">{answer}</p>
+        <p className="answer-content ml-[30px] sm:ml-[0] sm:text-base">{answer}</p>
       </div>
     </div>
   );
@@ -41,7 +41,7 @@ const Accordion = () => {
 
 
   return (
-    <div className=" w-[60%]">
+    <div className=" w-[60%] sm:w-[100%]">
       {exportedData.FisData.map((item, index) => (
         <AccordionItem
           key={index}

@@ -13,14 +13,19 @@ const CollateralWarehousing = () => {
   return (
     <>
     <Nav />
-<section className='landing-page-about h-[80vh] w-full pt-28 pb-0' style={{backgroundImage: `url(${bg})`, backgroundPosition: 'center', backgroundSize: 'cover'}}>
-    <section className='w-[90%] mx-auto h-[90%]' style={{backgroundImage: `url(${bg2})`, backgroundPosition: 'center', backgroundSize: 'cover'}}>
+<section className='landing-page-about h-[80vh]  sm:h-[50vh] w-full pt-28 md:pt-14 pb-0' style={{backgroundImage: `url(${bg})`, backgroundPosition: 'center', backgroundSize: 'cover'}}>
+    <section className='w-[90%] mx-auto h-[90%] sm:h-[100%]' style={{backgroundImage: `url(${bg2})`, backgroundPosition: 'center', backgroundSize: 'cover', borderRadius: '5px'}}>
         <section className='bg-[#00000080] w-full h-full flex flex-col text-center'>
-            <h2 className='text-white font-medium text-2xl mt-32'>SERVICE</h2>
-            <h2 className='text-white font-bold text-5xl mt-10'>Commodities Warehousing & Collateral </h2>
-            <h2 className='text-white font-bold text-5xl mt-2'>Management</h2>
-            <h2 className='text-white font-bold text-2xl mt-10'>Secure Storage and Financing Solutions for Your </h2>
-            <h2 className='text-white font-bold text-2xl'>Commodities</h2>
+            <h2 className='text-white font-medium text-2xl mt-32 sm:mt-10  sm:text-sm '>SERVICE</h2>
+            <h2 className='text-white font-bold text-5xl mt-10 sm:hidden'>Commodities Warehousing & Collateral </h2>
+            <h2 className='text-white font-bold text-5xl mt-2 sm:hidden'>Management</h2>
+            <h2 className='hidden sm:block text-white text-[32px] font-medium mt-0'>
+            Commodities warehousing & Collateral management
+            </h2>
+            <h2 className='hidden sm:block text-white text-base mt-10 px-4'>Secure Storage and Financing Solutions for Your Commodities</h2>
+            <h2 className='text-white font-bold text-2xl sm:hidden sm:text-base mt-10'>Secure Storage and Financing Solutions for Your </h2>
+            <h2 className='text-white font-bold text-2xl sm:hidden'>Commodities</h2>
+           
         </section>
     </section>
 <section>
