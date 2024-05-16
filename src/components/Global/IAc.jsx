@@ -41,7 +41,7 @@ const IAc = () => {
 
 
   return (
-    <div className="container w-[60%]">
+    <div className=" w-[60%]">
       {exportedData.IaasData.map((item, index) => (
         <AccordionItem
           key={index}
