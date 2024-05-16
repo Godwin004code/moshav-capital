@@ -38,7 +38,7 @@ const HomePage = () => {
       <DoYouHaveAnyQuestions />
 
       <Newsletter />
-      {/* <Footer /> */}
+       <Footer />
     </>
   );
 };

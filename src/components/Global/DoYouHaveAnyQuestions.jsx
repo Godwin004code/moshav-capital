@@ -5,8 +5,8 @@ import img from "../../Assets/moshav-questions.jpeg"
 const DoYouHaveAnyQuestions = () => {
   return (
     <section  className='w-full ' style={{backgroundImage: `url(${img})`, backgroundPosition: 'center', backgroundSize: 'cover'}}>
-        <section className='w-full py-20 bg-[#000000B2] justify-center  flex flex-col'>
-<h2 className='text-white font-bold text-4xl sm:text-2xl text-center'>Do You Have Any Questions?</h2>
+        <section className='w-full py-20 bg-[#000000B2] sm:bg-[#000000E5] justify-center  flex flex-col'>
+<h2 className='text-white font-bold text-4xl sm:text-2xl text-center sm:px-10'>Do You Have Any Questions?</h2>
 <p className='text-white w-[50%] sm:w-[80%] text-lg sm:text-base mx-auto text-center mt-8'>
 let's embark on a transformative partnership that paves the way for unparalleled success. Discover how our exceptional team can elevate your business to new heights.
 </p>

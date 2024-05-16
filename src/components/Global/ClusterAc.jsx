@@ -7,13 +7,13 @@ import { RiArrowDropDownLine } from "react-icons/ri";
 const AccordionItem = ({ question, answer, isOpen, onClick }) => {
   const contentHeight = useRef();
   return (
-    <div className="wrapper">
+    <div className="wrapper sm:mt-16">
       <button
-        className={`question-container ${isOpen ? "active" : ""}`}
+        className={`question-container ${isOpen ? "active " : ""}`}
         onClick={onClick}
       >
         <p className="question-content">{question}</p>
-        <RiArrowDropDownLine className={`arrow ${isOpen ? "active" : ""}`} />
+        <RiArrowDropDownLine className={`arrow ${isOpen ? "active w-[40px] ml-auto" : "w-[40px] ml-auto"}`} />
       </button>
 
       <div
@@ -25,7 +25,7 @@ const AccordionItem = ({ question, answer, isOpen, onClick }) => {
             : { height: "0px" }
         }
       >
-        <p className="answer-content ml-[30px]">{answer}</p>
+        <p className="answer-content ml-[30px] sm:ml-[0] sm:text-base">{answer}</p>
       </div>
     </div>
   );
@@ -41,7 +41,7 @@ const ClusterAc = () => {
 
 
   return (
-    <div className="container w-[60%]">
+    <div className="sm:w-[100%] w-[60%]">
       {exportedData.ClusterData.map((item, index) => (
         <AccordionItem
           key={index}
