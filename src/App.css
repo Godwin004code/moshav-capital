@@ -135,4 +135,13 @@
 
 }
 
+@media screen and (max-width: 700px) {
+
+  .slide-buttons{
+    top: 76%;
+    transform: scale(0.7)
+  }
+  
+}
+
 
