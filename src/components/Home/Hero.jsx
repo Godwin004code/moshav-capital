@@ -24,7 +24,7 @@ const Hero = () => {
 
   const prevSlide = () => {
     setActive(() => {
-      let newIndex = active + 1;
+      let newIndex = active - 1;
 
       if (newIndex < 0) {
         return Data.length - 1;
