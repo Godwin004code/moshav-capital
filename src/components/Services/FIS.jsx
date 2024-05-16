@@ -30,13 +30,13 @@ const FIS = () => {
         <section className='w-[90%] mx-auto justify-between flex'>
                 <div className='w-[45%]'>
                     <h2  className='text-[#000000] text-5xl font-bold mb-6'>About</h2>
-                    <p className='text-2xl text-[#000000]'>
+                    <p className='text-lg leading-[35px] text-[#000000]'>
                         <span className='font-bold text-[#72AA7B]'>Moshav Microfinance Bank (MMBL)</span>—an MCL subsidiary—has you covered if you're a small business owner, entrepreneur, or member of a cooperative in the agribusiness sector. We will provide easy access to customized financial products and services to help you achieve your business goals and successes.
                     </p>
-                    <p className='text-2xl text-[#000000] my-5'>
+                    <p className='text-lg leading-[35px] text-[#000000] my-5'>
                     We will support agro commodities focused out-growers scheme programs, provide credit facilities for inputs, equipment, and working capital needs, especially to marginalized communities, deposit platforms to encourage savings among the target market, Micro Insurance partnerships with insurance providers to offer tailored insurance products covering crop, livestock, and equipment risks, Micro Leasing support for productive assets to nano, micro and small - scale enterprises or financially underserved customers.
                     </p>
-                    <p className='text-2xl text-[#000000]'>
+                    <p className='text-lg leading-[35px] text-[#000000]'>
                     MMBL is dedicated to delivering more efficient, innovative, and customer-focused services while adhering strictly to the regulations set by the Central Bank of Nigeria. We plan to establish a strong presence in 516 local government areas with significant agricultural activity to cater to our target market.
                     </p>
                     <button className='bg-[#1E772C] w-[230px] mx-auto mt-12 h-[65px] text-white text-xl rounded-xl'>Register</button>

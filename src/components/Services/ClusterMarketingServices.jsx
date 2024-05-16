@@ -12,6 +12,7 @@ import ClusterAc from '../Global/ClusterAc'
 const ClusterMarketingServices = () => {
    
   return (
+
     <>
     <Nav />
 <section className='landing-page-about h-[80vh] w-full pt-28 pb-0' style={{backgroundImage: `url(${bg})`, backgroundPosition: 'center', backgroundSize: 'cover'}}>
@@ -32,7 +33,7 @@ const ClusterMarketingServices = () => {
         <section className='w-[90%] mx-auto justify-between flex'>
                 <div className='w-[45%]'>
                     <h2  className='text-[#000000] text-5xl font-bold mb-6'>About</h2>
-                    <p className='text-2xl text-[#000000] leading-8'>
+                    <p className='text-lg text-[#000000] leading-[35px]'>
                     MCL's approach to enhancing the marketing capabilities of Micro, Small, and Medium Enterprises (MSMEs) in agribusiness involves creating networks of collaboration and shared resources among businesses operating within the same geographic areas or industry clusters. By fostering partnerships and alliances, MCL enables MSMEs to collectively access new markets, leverage economies of scale, and enhance their competitiveness in the agribusiness sector. This collaborative model promotes sustainable growth by encouraging responsible resource management and knowledge exchange among participating enterprises. Through these initiatives, MCL empowers agribusinesses to navigate market challenges more effectively and achieve long-term success in their respective industries.
 
                     </p>

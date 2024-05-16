@@ -5,7 +5,7 @@ import img from "../../Assets/whythree.jpeg"
 const Team = () => {
   return (
     <section className='w-full py-20 bg-[#FAFFF5]'>
-        <h2 className='text-center text-6xl font-semibold mb-20'>Meet the team</h2>
+        <h2 className='text-center text-4xl font-semibold mb-20'>Meet the team</h2>
         <section className='flex gap-28 justify-between w-[90%] mx-auto'>
             <div>
                 <img className='rounded-[10px]' src={img} alt="Team member one" />

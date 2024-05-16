@@ -31,7 +31,7 @@ const IAAS = () => {
         <section className='w-[90%] mx-auto justify-between flex'>
                 <div className='w-[45%]'>
                     <h2  className='text-[#000000] text-5xl font-bold mb-6'>About</h2>
-                    <p className='text-2xl text-[#000000] leading-8'>
+                    <p className='text-lg leading-[35px] text-[#000000]'>
                     Moshav Capital offers Infrastructure-as-a-Service (IaaS) solutions tailored for agribusiness enterprises. Our IaaS offerings provide essential infrastructure support, including technology, equipment, and facilities, to optimize operations and enhance efficiency within the agribusiness sector. By leveraging our IaaS solutions, businesses can reduce costs, improve productivity, and focus on core activities while benefiting from reliable and scalable infrastructure services. 
 
                     </p>

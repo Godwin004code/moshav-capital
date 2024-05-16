@@ -31,11 +31,11 @@ const CollateralWarehousing = () => {
         <section className='w-[90%] mx-auto justify-between flex'>
                 <div className='w-[45%]'>
                     <h2  className='text-[#000000] text-5xl font-bold mb-6'>About</h2>
-                    <p className='text-2xl text-[#000000] leading-8'>
+                    <p className='text-lg leading-[35px] text-[#000000]'>
                     As a Securities Exchange Commission-licensed Commodities Warehousing and Collateral Management service provider, MCL operates specialized warehouses with advanced facilities designed to maintain optimal storage conditions for various commodities and eliminate post-harvest losses. We take great pride in our ability to deliver exceptional services to our esteemed clients and continuously strive to exceed their expectations
 
                     </p>
-                    <p className='text-2xl text-[#000000] leading-8 mt-10'>
+                    <p className='text-lg leading-[35px] text-[#000000]  mt-10'>
                     Our clients who store commodities with us receive warehouse receipts that they can use as collateral for financing from banks and other financial institutions. At MCL warehouses, we conduct quality checks and inspections to ensure that the stored commodities meet the specified standards and maintain their quality during storage. This guarantees that our clients can rely on our services to keep their valuable commodities safe and secure.
                     </p>
                     

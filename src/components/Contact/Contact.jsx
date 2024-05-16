@@ -10,7 +10,7 @@ const Contact = () => {
     <section className='landing-page-about h-[40vh] w-full pt-36 pb-0' style={{backgroundImage: `url(${img})`, backgroundPosition: 'center', backgroundSize: 'cover'}}>
 <section className='w-full'>
 <h2 className='text-[#1E772C] font-semibold text-6xl text-center'>Contact us</h2>
-<p className='w-[60%] mx-auto text-2xl font-medium text-center'>Should you have any questions, comments, or inquiries, rest assured that our committed team is available to offer the assistance and information you require</p>
+<p className='w-[60%] mx-auto text-lg font-medium text-center'>Should you have any questions, comments, or inquiries, rest assured that our committed team is available to offer the assistance and information you require</p>
 </section>
     </section>
     <section className='flex w-[90%] mx-auto gap-16 mb-32 mt-20'>
@@ -42,7 +42,7 @@ const Contact = () => {
     <section>
       <h2 className='text-[#1E772C] font-medium text-2xl text-center'>GET IN TOUCH</h2>
       <p className='font-medium text-3xl text-black text-center'>Contact our support team to grow your business</p>
-      <p className='font-medium text-2xl w-[70%] text-center mx-auto mt-12 mb-20'>
+      <p className='font-medium text-lg w-[70%] text-center mx-auto mt-12 mb-20'>
       Unlock the path to unprecedented business growth by reaching out to our dedicated support team at Moshav Capital. Whether you have inquiries, need guidance, or seek tailored solutions, our support experts are here to assist you.
       </p>
       <form className='bg-[#E9F1E1] w-[80%] mx-auto py-16 px-14'>
@@ -67,7 +67,7 @@ const Contact = () => {
       </form>
     </section>
     <section className='py-28'>
-      <h2 className='font-semibold text-4xl w-[60%] mb-10  mx-auto text-center'>Join our exclusive subscription service and gain access to a wealth of industry insights, expert guidance, and the latest trends directly in your inbox.</h2>
+      <h2 className='font-normal text-3xl w-[60%] mb-10  mx-auto text-center'>Join our exclusive subscription service and gain access to a wealth of industry insights, expert guidance, and the latest trends directly in your inbox.</h2>
       <div className='flex w-[50%] my-auto mx-auto'>
             <div className='bg-[#E4F8D1] w-[70%] rounded-[10px] pl-5 mr-5  flex'>
             <svg className='my-auto' width="28" height="20" viewBox="0 0 28 20" fill="none" xmlns="http://www.w3.org/2000/svg">

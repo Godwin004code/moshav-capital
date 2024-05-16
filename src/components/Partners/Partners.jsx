@@ -20,7 +20,7 @@ const Partners = () => {
 <section className='w-[90%] mx-auto h-[90%]' style={{backgroundImage: `url(${bg})`, backgroundPosition: 'center', backgroundSize: 'cover'}}>
 <section className='bg-[#00000080] w-full h-full flex flex-col text-center'>
 <h2 className='text-[#fff] font-semibold text-6xl text-center mt-28'>Partners</h2>
-<p className='w-[60%] mx-auto text-white text-2xl font-medium text-center mt-10'>Discover the power of collaboration with Moshav Capital's partner program. Join us to leverage synergies, access new markets, and drive sustainable growth in the agribusiness sector. Together, we can innovate, compete, and thrive in a dynamic marketplace. Partner with Moshav Capital and unlock new possibilities for your business journey</p>
+<p className='w-[60%] mx-auto text-white text-lg font-medium text-center mt-10'>Discover the power of collaboration with Moshav Capital's partner program. Join us to leverage synergies, access new markets, and drive sustainable growth in the agribusiness sector. Together, we can innovate, compete, and thrive in a dynamic marketplace. Partner with Moshav Capital and unlock new possibilities for your business journey</p>
 </section>
 </section>
     </section>
@@ -42,7 +42,7 @@ const Partners = () => {
     <section  className='w-full ' style={{backgroundImage: `url(${bg2})`, backgroundPosition: 'center', backgroundSize: 'cover'}}>
         <section className='w-full py-20 bg-[#000000E5] justify-center  flex flex-col'>
 <h2 className='text-white font-bold text-6xl text-center'>Become a Partner</h2>
-<p className='text-white w-[50%] text-2xl mx-auto text-center mt-5'>
+<p className='text-white w-[50%] text-lg mx-auto text-center mt-5'>
 let's embark on a transformative partnership that paves the way for unparalleled success. Discover how our exceptional team can elevate your business to new heights.
 </p>
 <button className='bg-[#1E772C] w-[230px] mx-auto mt-10 h-[65px] text-white text-xl rounded-xl'>contact us</button>

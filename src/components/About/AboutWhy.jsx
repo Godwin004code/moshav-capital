@@ -4,7 +4,7 @@ import React from 'react'
 const AboutWhy = () => {
   return (
     <section className='py-10'>
-        <h2 className='font-bold text-5xl text-center mb-10'><span className='text-[#1E772C]'>Why</span> Us</h2>
+        <h2 className='font-bold text-3xl text-center mb-10'><span className='text-[#1E772C]'>Why</span> Us</h2>
         <section className='flex py-12 justify-between w-[90%] mx-auto' style={{borderBottom: '1px solid black'}}>
         <svg width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_318_8308)">
@@ -21,7 +21,7 @@ const AboutWhy = () => {
 </defs>
 </svg>
 <div className='mt-14'>
-    <h2 className='font-semibold text-4xl'>Tailored <br />
+    <h2 className='font-semibold text-2xl'>Tailored <br />
 Financial Solutions</h2>
 </div>
 <div className='w-[50%]'>
@@ -49,7 +49,7 @@ Financial Solutions</h2>
 </svg>
 
 <div className='mt-14'>
-    <h2 className='font-semibold text-4xl'>Comprehensive  <br />
+    <h2 className='font-semibold text-2xl'>Comprehensive  <br />
     Support Ecosystem</h2>
 </div>
 <div className='w-[50%]'>
@@ -77,7 +77,7 @@ Financial Solutions</h2>
 
 
 <div className='mt-14'>
-    <h2 className='font-semibold text-4xl'>Reliable and Secure  <br />
+    <h2 className='font-semibold text-2xl'>Reliable and Secure  <br />
     Warehousing</h2>
 </div>
 <div className='w-[50%]'>
@@ -104,7 +104,7 @@ Financial Solutions</h2>
 
 
 <div className='mt-14'>
-    <h2 className='font-semibold text-4xl'>Commitment to  <br />
+    <h2 className='font-semibold text-2xl'>Commitment to  <br />
     Innovation and <br /> Sustainability</h2>
 </div>
 <div className='w-[50%]'>
