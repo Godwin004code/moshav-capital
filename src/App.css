@@ -107,6 +107,10 @@
 .imole-x2 {
   border-right: 1px solid black;
 }
+
+.imole-footer {
+  border-top: '1px solid #00000033'
+}
 @media only screen and (max-width: 640px) {
   .imole {
     border-left: 0;
@@ -119,6 +123,9 @@
     border-right: 0;
     border-bottom: 1px solid black;
   }
+  .imole-footer {
+    border-top: 0;
+  }
 
 }
 
@@ -130,3 +137,5 @@
   }
   
 }
+
+
