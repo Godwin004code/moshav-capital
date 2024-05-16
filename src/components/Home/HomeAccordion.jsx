@@ -23,7 +23,7 @@ const AccordionItem = ({ question, answer, isOpen, onClick }) => {
               : { height: "0px" }
           }
         >
-          <p className="answer-content ml-[30px] lg:!text-base lg:text-left sm:!text-sm">{answer}</p>
+          <p className="answer-content ml-[30px] sm:ml-0 lg:!text-base lg:text-left sm:!text-sm">{answer}</p>
         </div>
       </div>
     );

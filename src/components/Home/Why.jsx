@@ -7,8 +7,11 @@ import whyFour from "../../Assets/whyfour.jpeg";
 const Why = () => {
   return (
     <section className="py-12 why-moshav">
-      <h1 className="text-[#000000] text-4xl sm:text-3xl font-bold text-center sm:text-left w-[90%] mx-auto">
+      <h1 className="text-[#000000] text-4xl sm:hidden sm:text-3xl font-bold text-center sm:text-left w-[90%] mx-auto">
         Why choose Moshav Capital
+      </h1>
+      <h1 className="text-[#000000] sm:block hidden text-4xl sm:text-3xl font-bold text-center sm:text-left w-[90%] mx-auto">
+        Why Choose Us
       </h1>
       <p className="text-[#000000] text-2xl sm:text-lg text-center sm:text-left w-[90%] mx-auto mt-4">
         We offer exceptional services ranging from

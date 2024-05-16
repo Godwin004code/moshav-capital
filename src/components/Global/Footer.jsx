@@ -50,10 +50,10 @@ const Footer = () => {
     <h2 className='text-[#18493B] font-semibold text-2xl mb-6'>Quick links</h2>
     <ul>
         <li className='mb-6'>
-            <Link to="/" className='underline text-base my-auto'>About us</Link>
+            <Link to="/about" className='underline text-base my-auto'>About us</Link>
         </li>
         <li className='mb-5'>
-            <Link to="/" className='underline text-base'>Partners</Link>
+            <Link to="/partners" className='underline text-base'>Partners</Link>
         </li>
         <li className='mb-7'>
             <Link to="/" className='underline text-base'>Careers</Link>
