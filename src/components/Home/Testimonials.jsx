@@ -74,7 +74,7 @@ export default function Testimonials() {
           x: `${count.current * -100}%`,
           scale: idx == count.current ? 1 : 0.8,
           opacity: idx < count.current ? 0 : 1,
-          filter: idx == count.current ? "brightness(100%)" : "brightness(50%)",
+          filter: idx == count.current ? "brightness(100%)" : "brightness(40%)",
         });
       });
     }
@@ -87,15 +87,17 @@ export default function Testimonials() {
       gsap.to(card, {
         scale: idx == count.current ? 1 : 0.8,
         opacity: idx < count.current ? 0 : 1,
-        filter: idx == count.current ? "brightness(100%)" : "brightness(50%)",
+        filter: idx == count.current ? "brightness(100%)" : "brightness(40%)",
       });
     });
-  }, []);
+  }, [control]);
 
   return (
     <section className="flex flex-col gap-4 py-[100px] bg-[#FAFFF5] overflow-hidden">
       {/* Title */}
-      <h2 className="text-4xl sm:text-3xl font-semibold text-center">Testimonials</h2>
+      <h2 className="text-4xl sm:text-3xl font-semibold text-center">
+        Testimonials
+      </h2>
 
       {/* div for icon on the left and arrow buttons */}
       <div className="justify-between w-[90%] mx-auto flex items-center lg:hidden">
@@ -132,16 +134,18 @@ export default function Testimonials() {
       </div>
 
       {/* div for testimonial content and cards */}
-      <div className="w-[80%] mx-auto flex justify-between lg:flex-col lg:mt-[60px]">
+      <div className="w-[80%] mx-auto flex justify-between relative lg:flex-col lg:mt-[60px]">
         {/* testimonial content */}
         {testimonials.map((testi, idx) => {
           return (
             <div
               className={`${
                 idx == count.current ? "block" : "hidden"
-              } flex flex-col gap-3 max-w-[600px] testimonial-content`}
+              } flex flex-col gap-3 max-w-[580px] testimonial-content pointer-events-none h-full w-full`}
             >
-              <h3 className="text-3xl sm:text-xl font-semibold mb-3">{testi.title}</h3>
+              <h3 className="text-3xl sm:text-xl font-semibold mb-3">
+                {testi.title}
+              </h3>
 
               <p className="mb-4 leading-8 sm:text-base">{testi.para}</p>
 
@@ -154,7 +158,9 @@ export default function Testimonials() {
                   />
                 </div>
                 <div className="flex flex-col gap-1">
-                  <p className="text-2xl sm:text-lg font-medium">{testi.name}</p>
+                  <p className="text-2xl sm:text-lg font-medium">
+                    {testi.name}
+                  </p>
                   <p>{testi.profession}</p>
                 </div>
               </div>
@@ -163,15 +169,19 @@ export default function Testimonials() {
         })}
 
         {/* testimonial cards. */}
-        <div className="flex relative mr-[100px] lg:hidden">
-          <div className="rounded-xl opacity-0">
+        <div className="flex relative mr-[60px] lg:hidden">
+          <div className="rounded-xl opacity-0 min-w-[300px]">
             <img src={Jessica} alt="" />
           </div>
-          <div className="absolute flex h-full w-[300%]">
+          <div className="absolute flex h-full w-[300%] ml-[50px]">
             {testimonials.map((testimonial) => {
               return (
-                <div className="rounded-xl testimonial-cards">
-                  <img src={testimonial.image} alt="" />
+                <div className="rounded-md overflow-hidden testimonial-cards max-h-[300px]">
+                  <img
+                    className="w-full h-full"
+                    src={testimonial.image}
+                    alt=""
+                  />
                 </div>
               );
             })}
