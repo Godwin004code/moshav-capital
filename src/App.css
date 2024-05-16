@@ -137,7 +137,13 @@
   }
 }
 
-.register-form input {
+.register-form input:not(.checkbox) {
+  border: 1px solid #666666;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+}
+.register-form select:not(.checkbox) {
   border: 1px solid #666666;
   width: 100%;
   padding: 10px;
@@ -146,4 +152,8 @@
 
 .register-form input:focus {
   outline: none;
+}
+
+.register-type.active img{
+  filter: invert(100%);
 }

@@ -96,10 +96,10 @@ const Nav = () => {
             mobileShown
               ? "left-[0%] pointer-events-auto"
               : "left-[100%] pointer-events-none"
-          } fixed bg-white h-full w-full z-[100] left-0 top-0 text-black duration-500 ease-in-out`}
+          } fixed bg-white h-full w-full z-[100] overflow-auto left-0 top-0 text-black duration-500 ease-in-out`}
         >
           {/* Container for logo and cross button */}
-          <div className="w-[90%] mx-auto py-10 mb-[100px] flex justify-between">
+          <div className="w-[90%] mx-auto py-10 mb-[40px] flex justify-between">
             <Link to="/">
               {" "}
               <img src={navLogo} className="w-[150px]" alt="logo" />
@@ -109,7 +109,7 @@ const Nav = () => {
             </button>
           </div>
 
-          <ul className="flex my-auto gap-16 w-[90%] mx-auto flex-col text-3xl">
+          <ul className="flex my-auto gap-16 w-[90%] mx-auto flex-col text-3xl sm:text-xl sm:gap-8">
             <li>
               <Link to="/" className="font-medium">
                 Home
@@ -137,7 +137,7 @@ const Nav = () => {
                 >
                   <path
                     d="M6.15179 6.42898C6.07684 6.42989 6.00254 6.41511 5.93365 6.38559C5.86476 6.35606 5.80281 6.31245 5.75179 6.25755L0.608929 1.11469C0.380357 0.886122 0.380357 0.531836 0.608929 0.303265C0.8375 0.0746931 1.19179 0.0746931 1.42036 0.303265L6.16321 5.04612L10.8946 0.314693C11.1232 0.0861216 11.4775 0.0861216 11.7061 0.314693C11.9346 0.543265 11.9346 0.89755 11.7061 1.12612L6.56321 6.26898C6.44893 6.38327 6.30036 6.44041 6.16321 6.44041L6.15179 6.42898Z"
-                    fill="white"
+                    fill="black"
                   />
                 </svg>{" "}
               </Link>
@@ -156,7 +156,7 @@ const Nav = () => {
             </li>
 
             <Link to="/register">
-              <button className="bg-[#1E772C] text-white w-full mt-[100px] rounded-md py-4 px-10">
+              <button className="bg-[#1E772C] text-white w-full mt-[80px] rounded-md py-4 px-10">
                 Register
               </button>
             </Link>

@@ -92,10 +92,10 @@ const Nav = () => {
           mobileShown
             ? "left-[0%] pointer-events-auto"
             : "left-[100%] pointer-events-none"
-        } fixed bg-white h-full w-full z-[100] left-0 top-0 text-black duration-500 ease-in-out`}
+        } fixed bg-white h-full w-full z-[100] overflow-auto left-0 top-0 text-black duration-500 ease-in-out`}
       >
         {/* Container for logo and cross button */}
-        <div className="w-[90%] mx-auto py-10 mb-[100px] flex justify-between">
+        <div className="w-[90%] mx-auto py-10 mb-[40px] flex justify-between">
           <Link to="/">
             {" "}
             <img src={navLogo} className="w-[150px]" alt="logo" />
@@ -105,7 +105,7 @@ const Nav = () => {
           </button>
         </div>
 
-        <ul className="flex my-auto gap-16 w-[90%] mx-auto flex-col text-3xl">
+        <ul className="flex my-auto gap-16 w-[90%] mx-auto flex-col text-3xl sm:text-xl sm:gap-8">
           <li>
             <Link to="/" className="font-medium">
               Home
@@ -150,7 +150,7 @@ const Nav = () => {
           </li>
 
           <Link to="/register">
-            <button className="bg-[#1E772C] text-white w-full mt-[100px] rounded-md py-4 px-10">
+            <button className="bg-[#1E772C] text-white w-full mt-[80px] rounded-md py-4 px-10">
               Register
             </button>
           </Link>
