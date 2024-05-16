@@ -4,15 +4,16 @@ import { RiArrowDropDownLine } from "react-icons/ri";
 
 //  accordionitem component
 
-const AccordionItem = ({ question, answer, isOpen, onClick }) => {
+const AccordionItem = ({ question, listOne, listTwo, listThree, listfour, icon, isOpen, onClick }) => {
+   // console.log(listOne)
   const contentHeight = useRef();
   return (
-    <div className="wrapper">
+    <div className="wrapper about" style={{boxShadow: '2px 2px 10 0 #0000001A'}}>
       <button
         className={`question-container ${isOpen ? "active" : ""}`}
         onClick={onClick}
-      >
-        <p className="question-content">{question}</p>
+      > <span dangerouslySetInnerHTML={{ __html: icon }} /> 
+        <p className="question-content ml-4 w-[80%]">{question}</p>
         <RiArrowDropDownLine className={`arrow ${isOpen ? "active" : ""}`} />
       </button>
 
@@ -25,13 +26,19 @@ const AccordionItem = ({ question, answer, isOpen, onClick }) => {
             : { height: "0px" }
         }
       >
-        <p className="answer-content ml-[30px]">{answer}</p>
+        <div className="answer-content w-[100%]">
+            <li>{listOne}</li>
+            <li>{listTwo}</li>
+            {listfour != "" && <li>{listThree}</li>}
+            {listfour != "" && <li>{listfour}</li>}
+          
+        </div>
       </div>
     </div>
   );
 };
 
-const Accordion = () => {
+const AboutAccordion = () => {
   const [activeIndex, setActiveIndex] = useState(null);
 
   const handleItemClick = (index) => {
@@ -41,18 +48,23 @@ const Accordion = () => {
 
 
   return (
-    <div className=" w-[60%]">
-      {exportedData.FisData.map((item, index) => (
+    <div className=" w-[95%] mx-auto">
+      {exportedData.AboutData.map((item, index) => (
         <AccordionItem
           key={index}
           question={item.question}
           answer={item.answer}
           isOpen={activeIndex === index}
           onClick={() => handleItemClick(index)}
+          listOne={item.listOne}
+          listTwo={item.listTwo}
+          listThree={item.listThree}
+          listfour={item.listfour}
+          icon={item.icon}
         />
       ))}
     </div>
   );
 };
 
-export default Accordion;
+export default AboutAccordion;

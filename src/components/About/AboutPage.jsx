@@ -9,6 +9,7 @@ import OurStrongSides from '../Home/OurStrongSides'
 import Team from './Team'
 import AboutWhy from './AboutWhy'
 import Vision from './Vision'
+import AboutAccordion from '../Global/AboutAccordion'
 
 const AboutPage = () => {
   return (
@@ -19,6 +20,7 @@ const AboutPage = () => {
     <Vision />
     <OurStrongSides />
     <AboutWhy />
+    <AboutAccordion />
     <Team />
     <DoYouHaveAnyQuestions />
     <Newsletter />

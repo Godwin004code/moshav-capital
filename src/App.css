@@ -52,6 +52,11 @@
  margin-bottom: 30px;
   overflow: hidden;
 }
+.wrapper.about {
+  background-color: white;
+  box-shadow: 2px 2px 10 0 #0000001A !important;
+  
+}
 .wrapper .question-container{
   width: 100%;
   text-align: left;
@@ -64,6 +69,9 @@
   background: transparent;
   border: none;
   cursor: pointer;
+}
+.wrapper.about .question-container {
+  padding: 20px 20px;
 }
 .question-container.active{
   color: #1db954;
@@ -84,10 +92,11 @@
   padding: 0 1rem;
   transition: height .7s ease-in-out;
 }
+
 .wrapper .answer-content{
   padding: 1rem 0;
   font-size: 20px;
-  font-style: italic;
+  
 }
 
 .imole {
