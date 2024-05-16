@@ -15,7 +15,7 @@ const Nav = () => {
         setDropdownVisible(false);
       };
   return (
-    <header className='flex justify-between bg-white py-9 w-[90%] mx-auto'>
+    <header className='flex justify-between sm:hidden bg-white py-9 w-[90%] mx-auto'>
        <Link to="/"> <img src={logo} alt="logo" /></Link>
         <ul className='flex my-auto gap-12'>
             <li>

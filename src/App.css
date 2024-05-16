@@ -90,3 +90,25 @@
   font-style: italic;
 }
 
+.imole {
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  
+}
+.imole-x2 {
+  border-right: 1px solid black;
+}
+@media only screen and (max-width: 640px) {
+  .imole {
+    border-left: 0;
+    border-right: 0;
+    border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  }
+
+  .imole-x2 {
+    border-right: 0;
+    border-bottom: 1px solid black;
+  }
+
+}

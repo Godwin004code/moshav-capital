@@ -14,7 +14,7 @@ const AboutPage = () => {
   return (
     <>
   
-      <AboutNav />
+      <AboutNav  />
     <AboutHero />
     <Vision />
     <OurStrongSides />

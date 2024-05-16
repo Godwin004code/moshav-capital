@@ -98,6 +98,32 @@ const FisData = [
         "The accordion is a musical instrument with a keyboard and bellows. It produces sound by air passing over reeds when the player expands or compresses the bellows, used in various music genres."
     }
   ];
+
+
+  const AboutData = [
+    {
+      icon: ``,
+      question: "Tailored Financial Solutions",
+      listOne: "Access tailored credit facilities and financing options designed specifically for agribusinesses, addressing diverse needs and business goals.",
+      listTwo: "Benefit from expert collateral management solutions to optimize asset utilization and secure financing for growth and expansion."
+    },
+    {
+      icon: ``,
+      question: "Comprehensive support ecosystem",
+      answer: ""
+    },
+    {
+      icon: ``,
+      question: "Reliable and secure warehousing",
+      answer: ""
+    },
+    {
+      icon: ``,
+      question: "Commitment to Innovation & Sustainability",
+      answer: ""
+    },
+  ]
+
   
 
 const exportedData = {
