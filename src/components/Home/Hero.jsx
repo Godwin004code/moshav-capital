@@ -48,12 +48,12 @@ const Hero = () => {
       >
         <div className="landing-page-overlay h-full">
           <Nav />
-          <div className="flex justify-center flex-col mt-24 w-full">
-            <h1 className="text-white text-4xl w-[70%] mx-auto text-center ">
+          <div className="flex justify-center flex-col mt-24 lg:mt-16 w-full">
+            <h1 className="text-white text-4xl lg:text-3xl sm:text-2xl w-[70%] sm:w-[95%] mx-auto text-center ">
               {text}
             </h1>
-            <p className="text-white text-2xl text-center mt-5">{paragraph}</p>
-            <button className="bg-[#1E772C] w-[240px] mx-auto mt-10 h-[65px] text-white text-2xl rounded-xl">
+            <p className="text-white text-2xl lg:text-lg sm:text-base sm:w-[90%] mx-auto text-center mt-5">{paragraph}</p>
+            <button className="bg-[#1E772C] w-[240px] mx-auto mt-10 sm:mt-5 h-[65px] text-white text-2xl rounded-x rounded-md lg:text-lg lg:w-[150px] lg:h-[55px]">
               Learn more
             </button>
           </div>

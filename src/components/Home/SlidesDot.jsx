@@ -3,7 +3,7 @@ import Data from '../Data'
 
 const SlidesDot = ({active, switchSlide}) => {
     return (
-        <div className="all-dot">
+        <div className="all-dot lg:mb-[-30px] sm:mb-[-40px]">
             {
                 Data.map((slide, index) => {
                     return (

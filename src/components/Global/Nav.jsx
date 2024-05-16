@@ -85,7 +85,7 @@ const Nav = () => {
           </button>
         </section>
 
-        <button onClick={toggleNav}>
+        <button className="hidden lg:block w-[50px]" onClick={toggleNav}>
           <img src={hamburger} className="hidden lg:block w-[50px]" alt="" />
         </button>
 

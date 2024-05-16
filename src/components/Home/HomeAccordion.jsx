@@ -7,11 +7,11 @@ const AccordionItem = ({ question, answer, isOpen, onClick }) => {
     return (
       <div className="wrapper">
         <button
-          className={`question-container ${isOpen ? "active" : ""}`}
+          className={`question-container sm:!p-3 sm:!py-5 sm:flex sm:gap-3 ${isOpen ? "active" : ""}`}
           onClick={onClick}
         >
-          <p className="question-content">{question}</p>
-          <RiArrowDropDownLine className={`arrow ${isOpen ? "active" : ""}`} />
+          <p className="question-content lg:text-base sm:text-sm font-bold">{question}</p>
+          <RiArrowDropDownLine className={`arrow ${isOpen ? "active" : ""} sm:scale-[1.3] sm:w-[50px] `} />
         </button>
   
         <div
@@ -23,7 +23,7 @@ const AccordionItem = ({ question, answer, isOpen, onClick }) => {
               : { height: "0px" }
           }
         >
-          <p className="answer-content ml-[30px]">{answer}</p>
+          <p className="answer-content ml-[30px] lg:!text-base lg:text-left sm:!text-sm">{answer}</p>
         </div>
       </div>
     );
@@ -35,7 +35,7 @@ const HomeAccordion = () => {
       setActiveIndex((prevIndex) => (prevIndex === index ? null : index));
 }
 return (
-    <div className="container w-[60%]">
+    <div className="container w-[60%] lg:w-[100%] lg:mx-auto lg:mt-[80px]">
       {exportedData.HomeData.map((item, index) => (
         <AccordionItem
           key={index}
