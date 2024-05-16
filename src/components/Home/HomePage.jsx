@@ -8,6 +8,7 @@ import Newsletter from '../Global/Newsletter'
 import Footer from '../Global/Footer'
 import OurStrongSides from './OurStrongSides'
 import HomeAccordion from './HomeAccordion'
+import Testimonials from './Testimonials'
 
 
 const HomePage = () => {
@@ -17,6 +18,7 @@ const HomePage = () => {
   <OurPartners />
 <Whoweare />   
 <Why />   
+<Testimonials/>
 <OurStrongSides />
 <section className='flex w-[90%] mx-auto justify-between py-16 pb-28'>
         <div>
