@@ -6,7 +6,6 @@ import hamburger from "../../Assets/hamburger.svg";
 import cross from "../../Assets/cross.svg";
 import navLogo from "../../Assets/nav-logo.svg";
 
-
 const Nav = () => {
   const [isDropdownVisible, setDropdownVisible] = useState(false);
   const [mobileShown, setMobileShown] = useState(false);
@@ -80,9 +79,11 @@ const Nav = () => {
           </li>
         </ul>
         <section>
-          <button className="bg-[#1E772C] text-white w-[106px] h-[47px] lg:hidden">
-            Register
-          </button>
+          <Link to="/register">
+            <button className="bg-[#1E772C] text-white w-[106px] h-[47px] lg:hidden">
+              Register
+            </button>
+          </Link>
         </section>
 
         <button className="hidden lg:block w-[50px]" onClick={toggleNav}>
@@ -92,7 +93,9 @@ const Nav = () => {
         {/* container for mobile navigation */}
         <div
           className={`${
-            mobileShown ? "left-[0%] pointer-events-auto" : "left-[100%] pointer-events-none"
+            mobileShown
+              ? "left-[0%] pointer-events-auto"
+              : "left-[100%] pointer-events-none"
           } fixed bg-white h-full w-full z-[100] left-0 top-0 text-black duration-500 ease-in-out`}
         >
           {/* Container for logo and cross button */}
@@ -152,9 +155,11 @@ const Nav = () => {
               </Link>
             </li>
 
-            <button className="bg-[#1E772C] text-white w-full mt-[100px] rounded-md py-4 px-10">
-            Register
-          </button>
+            <Link to="/register">
+              <button className="bg-[#1E772C] text-white w-full mt-[100px] rounded-md py-4 px-10">
+                Register
+              </button>
+            </Link>
           </ul>
         </div>
       </header>

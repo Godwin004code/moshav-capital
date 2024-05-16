@@ -75,9 +75,11 @@ const Nav = () => {
         </li>
       </ul>
       <section>
-        <button className="bg-[#1E772C] text-white w-[106px] h-[47px] lg:hidden">
-          Register
-        </button>
+        <Link to="/register">
+          <button className="bg-[#1E772C] text-white w-[106px] h-[47px] lg:hidden">
+            Register
+          </button>
+        </Link>
       </section>
 
       <button onClick={toggleNav} className="hidden lg:block w-[50px]">
@@ -147,9 +149,11 @@ const Nav = () => {
             </Link>
           </li>
 
-          <button className="bg-[#1E772C] text-white w-full mt-[100px] rounded-md py-4 px-10">
-            Register
-          </button>
+          <Link to="/register">
+            <button className="bg-[#1E772C] text-white w-full mt-[100px] rounded-md py-4 px-10">
+              Register
+            </button>
+          </Link>
         </ul>
       </div>
     </header>

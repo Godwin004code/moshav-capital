@@ -11,6 +11,7 @@ import Contact from './components/Contact/Contact';
 import Partners from './components/Partners/Partners';
 import Services from './components/Services/Services';
 import ScrollToTop from './components/Global/ScrollToTop';
+import Register from "../src/components/Register/Register"
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
       <Route path="/contact" element={<Contact />} />
       <Route path="/partners" element={<Partners />} />
       <Route path="/services" element={<Services />} />
+      <Route path="/register" element={<Register />} />
     </Routes>
     </BrowserRouter>
   );
