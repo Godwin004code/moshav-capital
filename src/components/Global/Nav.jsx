@@ -24,10 +24,10 @@ const Nav = () => {
 
   return (
     <>
-      <header className="flex justify-between py-9 w-[90%] mx-auto">
+      <header className="flex justify-between py-9 sm:py-3 w-[90%] mx-auto">
         <Link to="/">
           {" "}
-          <img src={logo} alt="logo" />
+          <img src={logo} className="sm:w-[100px]" alt="logo" />
         </Link>
         <ul className="flex my-auto gap-12 lg:hidden">
           <li>
@@ -87,7 +87,7 @@ const Nav = () => {
         </section>
 
         <button className="hidden lg:block w-[50px]" onClick={toggleNav}>
-          <img src={hamburger} className="hidden lg:block w-[50px]" alt="" />
+          <img src={hamburger} className="hidden lg:block w-[50px] sm:w-[30px]" alt="" />
         </button>
 
         {/* container for mobile navigation */}
