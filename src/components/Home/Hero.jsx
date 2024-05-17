@@ -41,7 +41,7 @@ const Hero = () => {
 
   return (
     <>
-    <Fallback />
+  
       <section
         className="landing-page h-[90vh]"
         style={{
