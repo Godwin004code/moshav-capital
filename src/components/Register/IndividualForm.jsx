@@ -66,6 +66,7 @@ export default function IndividualForm() {
           className="checkbox w-full max-w-[20px]"
           name=""
           id=""
+          style={{borderColor: 'red !important'}}
         />
         <p>
           I accept the <span className="text-[#1E772C]">Terms of Service</span>{" "}

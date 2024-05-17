@@ -14,6 +14,8 @@ import ScrollToTop from './components/Global/ScrollToTop';
 import Register from "../src/components/Register/Register"
 
 
+
+
 function App() {
   return (
     <BrowserRouter>

@@ -3,6 +3,8 @@ import Nav from "../Global/Nav";
 import SlidesDot from "./SlidesDot";
 import SlidesArrow from "./SlidesArrow";
 import Data from "../Data";
+import fraud from "../../Assets/moshav-ceo.jpeg"
+import Fallback from "../Global/Fallback";
 
 const Hero = () => {
   
@@ -39,12 +41,14 @@ const Hero = () => {
 
   return (
     <>
+  
       <section
         className="landing-page h-[90vh]"
         style={{
           backgroundImage: `url(${img})`,
           backgroundPosition: "center",
           backgroundSize: "cover",
+          zIndex: 100
         }}
       >
         <div className="landing-page-overlay h-full">
