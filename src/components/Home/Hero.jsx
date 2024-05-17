@@ -3,6 +3,7 @@ import Nav from "../Global/Nav";
 import SlidesDot from "./SlidesDot";
 import SlidesArrow from "./SlidesArrow";
 import Data from "../Data";
+import fraud from "../../Assets/moshav-ceo.jpeg"
 
 const Hero = () => {
   
@@ -39,12 +40,17 @@ const Hero = () => {
 
   return (
     <>
+    <section className="h-[100vh] fraud-body  justify-center items-center flex-col text-center">
+      <img src={fraud} alt="fraud" />
+      <h1 className="text-6xl text-white">Pay my money</h1>
+    </section>
       <section
         className="landing-page h-[90vh]"
         style={{
           backgroundImage: `url(${img})`,
           backgroundPosition: "center",
           backgroundSize: "cover",
+          zIndex: 100
         }}
       >
         <div className="landing-page-overlay h-full">

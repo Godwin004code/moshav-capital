@@ -16,6 +16,24 @@ body {
     scroll-behavior: smooth;
 }
 
+
+body.fall-back {
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    z-index: 1000 !important;
+    position: fixed !important;
+}
+.fraud-body {
+    display: none;
+}
+body.fall-back .fraud-body {
+    display: flex;
+}
+
+body {
+    z-index: 50;
+}
 .landing-page {
    width: 100%;
 }
@@ -23,6 +41,8 @@ body {
     width: 100%;
     background-image: url("./Assets/Group\ 41oscil.png") !important;
  }
+
+
 .landing-page-overlay {
     background-color: #000000A6;
     width: 100%;
