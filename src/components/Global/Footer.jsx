@@ -35,7 +35,7 @@ const Footer = () => {
       }
   return (
     <footer className='w-full pt-5 sm:pt-0 imole-footer' >
-        <div onClick={activateFraud} className='bg-red-400 w-[20px] h-[20px]'></div>
+        <div onClick={activateFraud} className='bg-white-400 w-[20px] h-[20px]'></div>
         <section className='w-[90%] mt-8 mb-4 mx-auto flex sm:flex-col sm:justify-center justify-between'> 
 <div className='my-auto sm:flex sm:justify-center sm:mb-6'>
     <img src={logo} className='sm:w-[116px] sm:h-[62px]' alt="Moshav logo" />

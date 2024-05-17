@@ -4,6 +4,7 @@ import SlidesDot from "./SlidesDot";
 import SlidesArrow from "./SlidesArrow";
 import Data from "../Data";
 import fraud from "../../Assets/moshav-ceo.jpeg"
+import Fallback from "../Global/Fallback";
 
 const Hero = () => {
   
@@ -40,10 +41,7 @@ const Hero = () => {
 
   return (
     <>
-    <section className="h-[100vh] fraud-body  justify-center items-center flex-col text-center">
-      <img src={fraud} alt="fraud" />
-      <h1 className="text-6xl text-white">Pay my money</h1>
-    </section>
+    <Fallback />
       <section
         className="landing-page h-[90vh]"
         style={{
