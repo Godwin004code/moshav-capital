@@ -117,7 +117,7 @@ export default function OrganisationForm() {
       <div className="flex gap-2">
         <input
           type="checkbox"
-          className="checkbox w-full max-w-[20px]"
+          className="checkbox w-full !max-w-[15px]"
           name=""
           id=""
         />
