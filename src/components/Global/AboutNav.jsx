@@ -23,7 +23,7 @@ const Nav = () => {
   }
 
   return (
-    <header className="flex justify-between  bg-white py-9 sm:py-3 w-[90%] sm:w-[100%] mx-auto">
+    <header className="flex justify-between  bg-white py-9 sm:py-3 w-[90%] mx-auto">
       <Link to="/">
         {" "}
         <img src={logo} className="sm:w-[100px]" alt="logo" />

@@ -63,7 +63,7 @@ export default function IndividualForm() {
       <div className="flex gap-2">
         <input
           type="checkbox"
-          className="checkbox w-full max-w-[20px]"
+          className="checkbox w-full !max-w-[15px]"
           name=""
           id=""
           style={{borderColor: 'red !important'}}
