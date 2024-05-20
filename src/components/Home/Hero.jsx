@@ -3,8 +3,7 @@ import Nav from "../Global/Nav";
 import SlidesDot from "./SlidesDot";
 import SlidesArrow from "./SlidesArrow";
 import Data from "../Data";
-import fraud from "../../Assets/moshav-ceo.jpeg"
-import Fallback from "../Global/Fallback";
+
 
 const Hero = () => {
   

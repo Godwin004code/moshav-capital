@@ -8,7 +8,7 @@ const AccordionItem = ({ question, listOne, listTwo, listThree, listfour, icon, 
    // console.log(listOne)
   const contentHeight = useRef();
   return (
-    <div className="wrapper about" style={{boxShadow: '2px 2px 10 0 #0000001A'}}>
+    <div className="wrapper hidden sm:block about" style={{boxShadow: '2px 2px 10 0 #0000001A'}}>
       <button
         className={`question-container ${isOpen ? "active" : ""}`}
         onClick={onClick}

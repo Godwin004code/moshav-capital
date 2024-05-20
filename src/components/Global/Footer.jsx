@@ -2,40 +2,11 @@
 import React, {useState, useEffect} from 'react'
 import { Link } from 'react-router-dom'
 import logo from "../../Assets/Group 47.svg"
-import { useCookies } from 'react-cookie';
 
 const Footer = () => {
-    const [themeClass, setThemeClass] = useState('');
-    const activateFraud = () => {
-        document.body.classList.toggle("fall-back")
-        const newThemeClass = themeClass === 'dark' ? 'light' : 'dark';
-    setThemeClass(newThemeClass);
-    localStorage.setItem('themeClass', newThemeClass);
-    console.log(themeClass);
-        
-    }
-    useEffect(() => {
-        const savedThemeClass = localStorage.getItem('themeClass');
-       // console.log(savedThemeClass);
-        if (savedThemeClass) {
-          setThemeClass(savedThemeClass);
-          
-        }
-
-        if(themeClass === 'dark') {
-            document.body.classList.toggle("fall-back")
-        }
-      }, []);
-
-      window.onload = () => {
-        const fr = localStorage.getItem('themeClass')
-        if(fr === 'dark') {
-            document.body.classList.toggle("fall-back")
-        }
-      }
+ 
   return (
     <footer className='w-full pt-5 sm:pt-0 imole-footer' >
-        <div onClick={activateFraud} className='bg-white-400 w-[20px] h-[20px]'></div>
         <section className='w-[90%] mt-8 mb-4 mx-auto flex sm:flex-col sm:justify-center justify-between'> 
 <div className='my-auto sm:flex sm:justify-center sm:mb-6'>
     <img src={logo} className='sm:w-[116px] sm:h-[62px]' alt="Moshav logo" />
